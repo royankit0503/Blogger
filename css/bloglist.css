@@ -150,10 +150,10 @@ button {
 .blog-list-modal-content {
     background-color: white;
     margin: auto;
-    padding: 2.5%;
-    border: 2.5%;
+    padding: 2%;
+    border: 2%;
     width: 25%;
-    height: 17%;
+    height: 15%;
     align: center;
     float: top;
 }
