@@ -34,6 +34,18 @@
         if (event.target == blogListModal) {
           blogListModal.style.display = "none";
         }
-      }
-   }
+    }
+}
+
+//invoking the function to load the corresponding post content
+function loadPostContent(id){
+    console.log(id);
+    var idSplit= id.split("-");
+    var idNum = idSplit[2];
+
+//creating the var to get the corresponding element
+   var blogListModalIndex="blog-list-modal-"+idNum
+   var redirect="\post.html";
+   window.location.href=redirect;
+}
 
